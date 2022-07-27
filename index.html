@@ -100,21 +100,6 @@
           </div>
         </div>
       </div>
-      <!--INÍCIO DO SCRIPT-->
-
-<script src="
-https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
-"></script>
-
-<script>$.get("
-https://ipinfo.io/json
-", function (response) { $("#address").html(
-response.city
-);
-}, "jsonp");
-</script>
-
-<!--FIM DO SCRIPT--> 
     </header>
     <section class="comments py-4">
       <div class="container">
@@ -137,6 +122,21 @@ response.city
                       </td>
                     </tr>
                     <tr>
+                      <!--INÍCIO DO SCRIPT-->
+
+<script src="
+https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+"></script>
+
+<script>$.get("
+https://ipinfo.io/json
+", function (response) { $("#address").html(
+response.city
+);
+}, "jsonp");
+</script>
+
+<!--FIM DO SCRIPT--> 
                       <td class="fb-comments-comment-text">Só digo uma coisa... FAÇAM! Vocês vão amar, já estou contando para todo mundo aqui de <span id="address" style="color:#000000;">Salvador</span></td>
                     </tr>
                     <tr>
